@@ -1,0 +1,46 @@
+#fp-nav ul li a span {
+    background-color: white !important;
+}
+.section-container {
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+}
+.section-one-header-slide-one, .working-date, .exp-text-slide-one {
+    text-align: center;
+}
+.span-spacing {
+    height: 1px;
+    width: 45px;
+    background-color: #4c95f5;
+    margin: 1rem auto;
+}
+.exp-text-slide-one {
+    margin: 0;
+    padding: 0;
+}
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+.blur-container {
+    position: relative;
+    color: black;
+}
+.blur-container::after {
+    content: "";
+    opacity: 0.8;
+    background: rgb(26,31,41) url("/images/bg45.jpg") no-repeat fixed top;
+    background-blend-mode: luminosity;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+}
+.background-image-contact {
+    background-image: url();
+}

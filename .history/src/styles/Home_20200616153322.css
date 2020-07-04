@@ -1,0 +1,35 @@
+#fp-nav ul li a span {
+    background-color: white !important;
+}
+.section-container {
+    background: lightgrey;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+}
+.section-one-header-slide-one, .working-date, .exp-text-slide-one {
+    text-align: center;
+}
+.span-spacing {
+    height: 1px;
+    width: 45px;
+    background-color: #4c95f5;
+    margin: 1rem auto;
+}
+.exp-text-slide-one {
+    margin: 0;
+    padding: 0;
+}
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+.blur-container {
+    position: relative;
+    color: black;
+}
+.blur-container::after {
+    content: "";
+    opacity: 0.8;
+    background: rgb(26,31,41) url("/images/");
+}

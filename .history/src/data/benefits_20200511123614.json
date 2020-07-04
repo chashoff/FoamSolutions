@@ -1,0 +1,14 @@
+{
+    "benefits": [
+        {
+            "title": "Title One",
+            "description": "Title One Description",
+            "icon": "/images/globe.svg"
+        },
+        {
+            "title": "Title One",
+            "description": "Title One Description",
+            "icon": "/images/globe.svg"
+        }
+    ]
+}

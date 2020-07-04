@@ -1,0 +1,15 @@
+{
+    "fsolution": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-foamsolutionsv2-fsolution-231102-authRole",
+            "UnauthRoleArn": "arn:aws:iam::558620056041:role/amplify-foamsolutionsv2-fsolution-231102-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::558620056041:role/amplify-foamsolutionsv2-fsolution-231102-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-foamsolutionsv2-fsolution-231102-deployment",
+            "UnauthRoleName": "amplify-foamsolutionsv2-fsolution-231102-unauthRole",
+            "StackName": "amplify-foamsolutionsv2-fsolution-231102",
+            "StackId": "arn:aws:cloudformation:us-east-1:558620056041:stack/amplify-foamsolutionsv2-fsolution-231102/034589d0-5d05-11ea-92fd-121fa677fe9a",
+            "AmplifyAppId": "d1443nydkc0cus"
+        }
+    }
+}

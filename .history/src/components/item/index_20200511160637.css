@@ -1,0 +1,13 @@
+.item-container-inner {
+    background-color: lightgrey;
+    text-align: center;
+    width: 100;
+    margin: 1em;
+    padding: .5em;
+}
+.item-desc-seperator {
+    height: 4px;
+    width: 40px;
+    background-color: #45A5E4;
+    text-align: center;
+}

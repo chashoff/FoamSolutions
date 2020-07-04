@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="582" height="627.16" viewBox="0 0 582 627.16">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.405" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5ac0ff"/>
+      <stop offset="1" stop-color="#3d7caa"/>
+    </linearGradient>
+  </defs>
+  <g id="mail" transform="translate(1 1)">
+    <g id="Group_8" data-name="Group 8">
+      <rect id="canvas_background" width="582" height="402" transform="translate(-1 -1)" fill="none"/>
+    </g>
+    <g id="Group_9" data-name="Group 9">
+      <path id="mail-envelope-open" d="M388.008,395.36l-51.182,45.763,2.294-.012h0l-.46.409H260.684l39.16-.2h0l-52.327-.25-51.8-45.706Zm25.813-23.08,74.858-66.932V118.6A23.284,23.284,0,0,0,465.6,95.32H119.4A23.031,23.031,0,0,0,96.32,118.448V307.656l73.24,64.624Zm-200-300.04L292.5,3l78.682,69.24H465.66a46.076,46.076,0,0,1,46.1,46.151v77.558L581,256.88V580.137a46.159,46.159,0,0,1-46.243,46.023H50.243A46.026,46.026,0,0,1,4,580.137V256.88l69.24-60.931V118.391a46.011,46.011,0,0,1,46.1-46.151h94.478Zm123.176,0L292.5,33,248.006,72.24ZM511.76,226.351l34.62,30.529-34.62,30.773v-61.3Zm-438.52,61.3L38.62,256.88l34.62-30.529v61.3ZM223.26,464.6,61.7,603.08H523.3L361.74,464.6ZM550.653,596.737,373.28,441.914,557.92,279.96V580a23.037,23.037,0,0,1-7.267,16.736h0Zm-516.306,0L211.72,441.914,27.08,279.96V580a23.037,23.037,0,0,0,7.267,16.736h0ZM142.48,164.56v23.08H442.52V164.56Zm0,69.24v23.08H442.52V233.8Zm0,69.24v23.08H442.52V303.04Z" transform="translate(0)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+.side-nav-link {
+    font-size: 1.4em;
+    padding: .5em 0 .5em 0;
+    color: darkgrey;
+}
+.icon-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    transition: .2s ease-in-out all;
+    padding-left: 1em;
+}
+.icon-container:hover {
+    color: lightblue !important;
+    transform: scale(1.1);
+}
+.icon {
+    font-size: 1.4em;
+    color: darkgrey;
+    padding-right: .5em;
+}
+.one, .two, .three, .four {
+    transition: .2s ease-in-out all;
+}
+.one:hover, .two:hover, .three:hover, .four:hover {
+    border-bottom: 2px solid lightblue ;
+    border-top: 2px solid lightblue;
+}
+.drawer-header {
+    background-color: lightblue;
+    background-size: cover;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

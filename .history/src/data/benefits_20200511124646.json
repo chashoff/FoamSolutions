@@ -1,0 +1,14 @@
+{
+    "benefits": [
+        {
+            "title": "Cost Efficient",
+            "description": "Our process saves you significant money on your foam concentrate.",
+            "icon": "/images/globe.svg"
+        },
+        {
+            "title": "Enviornmentally Friendly",
+            "description": "Title One Description",
+            "icon": "/images/globe.svg"
+        }
+    ]
+}

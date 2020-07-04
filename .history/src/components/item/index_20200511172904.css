@@ -1,0 +1,13 @@
+.item-container-inner {
+    background-color: rgba(113, 113, 113, 72)
+    text-align: center;
+    width: 100;
+    margin: 1em;
+    padding: .5em;
+}
+.item-desc-seperator {
+    height: 4px;
+    width: 40px;
+    background-color: #45A5E4;
+    margin: 10px auto 0 auto;
+}
