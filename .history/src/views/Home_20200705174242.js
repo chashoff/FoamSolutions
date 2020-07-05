@@ -102,14 +102,13 @@ class Home extends Component {
                             <Map />
                         </div>
                         <div className="section">
-                            <h3 style={{textAlign: 'center'}}>Contact our sales team</h3>
-                            <p style={{textAlign: 'center', fontWeight: '400', paddingBottom: '4em', fontSize: '.8em', color: 'darkgrey'}}>Our team is happy to answer your questions. The only bad question is the one not asked!</p>
-                            <Form />
                             <div class="ocean">
                                 <div class="wave"></div>
                                 <div class="wave"></div>
                             
-                                
+                                <h3 style={{textAlign: 'center'}}>Contact our sales team</h3>
+                                <p style={{textAlign: 'center', fontWeight: '400', paddingBottom: '4em', fontSize: '.8em', color: 'darkgrey'}}>Our team is happy to answer your questions. The only bad question is the one not asked!</p>
+                                <Form />
                             </div>
                         </div>
                         {/* <div className="section">
