@@ -17,12 +17,3 @@
     display: flex;
     margin-left: auto;
 }
-.fullscreen-nav-link {
-    margin: .5em 1.5em;
-    color: lightblue;
-    transition: .2s ease-in-out all;
-    padding: .5em 1.5em;
-}
-.fullscreen-nav-link:hover {
-    border-bottom: 1px solid lightblue;
-}

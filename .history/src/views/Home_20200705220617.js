@@ -98,7 +98,7 @@ class Home extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div id="location" className="section">
+                        <div className="section">
                             <Map />
                         </div>
                         <div className="section">

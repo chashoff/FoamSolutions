@@ -16,6 +16,7 @@
 .fullscreen-nav {
     display: flex;
     margin-left: auto;
+    position: relative;
 }
 .fullscreen-nav-link {
     margin: .5em 1.5em;
@@ -24,5 +25,5 @@
     padding: .5em 1.5em;
 }
 .fullscreen-nav-link:hover {
-    border-bottom: 1px solid lightblue;
+    border-bottom: 2px solid lightblue;
 }

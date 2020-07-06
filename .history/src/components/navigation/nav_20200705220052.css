@@ -16,6 +16,7 @@
 .fullscreen-nav {
     display: flex;
     margin-left: auto;
+    position: relative;
 }
 .fullscreen-nav-link {
     margin: .5em 1.5em;

@@ -21,8 +21,8 @@
     margin: .5em 1.5em;
     color: lightblue;
     transition: .2s ease-in-out all;
-    padding: .5em 1.5em;
+    padding
 }
 .fullscreen-nav-link:hover {
-    border-bottom: 1px solid lightblue;
+    border: 2px solid lightblue;
 }

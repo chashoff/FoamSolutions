@@ -21,11 +21,8 @@ class NavBar extends Component {
         return (
                 <div style={{padding: '.25em 1em .25em 1em', display: 'flex'}}>
                     <FaBars className="hamburger-menu" style={{ fontSize: '1.5em', color: 'darkgrey', marginLeft: 'auto' }} onClick={this.handleNavClose} />
-                    <nav className="fullscreen-nav">
-                        <a href="#Home" className="fullscreen-nav-link">Home</a>
-                        <a href="#About" className="fullscreen-nav-link">About</a>
-                        <a href="#Location" className="fullscreen-nav-link">Location</a>
-                        <a href="#Contact" className="fullscreen-nav-link">Contact</a>
+                    <nav>
+                        <a></a>
                     </nav>
                 </div>
         )

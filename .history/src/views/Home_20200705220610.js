@@ -82,7 +82,8 @@ class Home extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div id="about" className="slide section-container">
+                            <div id="
+                            className="slide section-container">
                                 <h2>Benefits Using<br />Our Process</h2>
                                 <div>
                                     <div className="about-grid">
@@ -98,7 +99,7 @@ class Home extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div id="location" className="section">
+                        <div className="section">
                             <Map />
                         </div>
                         <div className="section">
