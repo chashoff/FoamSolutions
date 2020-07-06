@@ -4,7 +4,6 @@
 .section-container {
     padding-left: 5.5rem;
     padding-right: 5.5rem;
-    overflow-y: hidden !important;
 }
 .section-one-header-slide-one, .working-date, .exp-text-slide-one {
     text-align: center;

@@ -40,7 +40,7 @@ class Home extends Component {
                 console.log("render prop change", state, fullpageApi); // eslint-disable-line no-console
 
                 return (
-                    <div style={{ overflowY: 'hidden'}}>
+                    <div style={{ overflow}}>
                         <div className="section">
                         <WaterWave
                             imageUrl={image}
