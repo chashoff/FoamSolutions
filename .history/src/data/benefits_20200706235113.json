@@ -1,0 +1,39 @@
+{
+    "benefits": [
+        {
+            "title": "Cost Efficient",
+            "description": "Our process saves you significant money on your foam concentrate.",
+            "icon": "/images/dollar.svg"
+        },
+        {
+            "title": "Environmentally Friendly",
+            "description": "We only test with water. This means there are no environment impacts, clean-up concerns, containment/disposal costs.",
+            "icon": "/images/globe.svg"
+        },
+        {
+            "title": "Thorough Testing",
+            "description": "We have the ability to test systems for longer periods of time while only flowing water. Making sure everything is working correctly!",
+            "icon": "/images/globe.svg"
+        },
+        {
+            "title": "Variation Testing",
+            "description": "Our testing allows us to change the system operating parameters over a wide range of flow rates.",
+            "icon": "/images/globe.svg"
+        },
+        {
+            "title": "Time Efficient",
+            "description": "The setup for our equipment is extremely simple, and our tests are done with ease.",
+            "icon": "/images/globe.svg"
+        },
+        {
+            "title": "Requirement Driven",
+            "description": "We meet all the requirements from the manufacturer for flushing the systems with water.",
+            "icon": "/images/globe.svg"
+        },
+        {
+            "title": "True Performance",
+            "description": "Overall reduction in risk of poor system performance.",
+            "icon": "/images/globe.svg"
+        }
+    ]
+}
