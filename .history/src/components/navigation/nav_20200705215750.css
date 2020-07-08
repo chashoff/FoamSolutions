@@ -1,0 +1,27 @@
+
+@media only screen and (max-width: 650px) {
+    .nav-items-wide {
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 650px) {
+    .hamburger-menu {
+        display: none;
+        transition: .2s ease-in-out all;
+    }
+    .hamburger-menu:hover {
+        transform: scale(1.1);
+    }
+}
+.fullscreen-nav {
+    display: flex;
+    margin-left: auto;
+}
+.fullscreen-nav-link {
+    margin: .5em 1.5em;
+    color: lightblue;
+    transition: .2s ease-in-out all;
+}
+.fullscreen-nav-link:hover {
+    border: 2px solid lightblue;
+}
