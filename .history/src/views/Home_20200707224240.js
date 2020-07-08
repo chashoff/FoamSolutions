@@ -118,7 +118,7 @@ class Home extends Component {
                                         protection systems. The employees at Foam Solutions 
                                         are experts in their field and keep our Assembly 
                                         Plant, Paint Facility and Truck Specialty Center in...</p>
-                                        <div style={{display: 'flex'}}>
+                                        <div style=>
                                             <img style={{ borderRadius: '50%', height: '75px', marginTop: '1em'}} src="/images/user-sean.png" alt=""/>
                                             <div style={{ marginTop: '1.7em', marginLeft: '1em'}}>
                                                 <h4 style={{textTransform: 'uppercase'}}>Rusty</h4>
@@ -144,7 +144,7 @@ class Home extends Component {
                                         foam proportioner system to hopefully cut down on the 
                                         cost of a regular foam test. We are happy to say it was 
                                         much cheaper, and they did an amazing job!"</p>
-                                        <div style={{display: 'flex'}}>
+                                        <div>
                                             <img style={{ borderRadius: '50%', height: '75px', marginTop: '1em'}} src="/images/user-ricky.png" alt=""/>
                                             <div style={{ marginTop: '1.7em', marginLeft: '1em'}}>
                                                 <h4 style={{textTransform: 'uppercase'}}>Kris Young</h4>

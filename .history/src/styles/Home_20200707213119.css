@@ -76,19 +76,3 @@
   background-size: cover;
   height: 100%;
 }
-#testimonials {
-  background-image: url('/images/testimonials.png');
-  background-size: cover;
-}
-.testimonial {
-  background-color: white;
-  width: 25%;
-  padding: 2em;
-}
-.testimonial p {
-  font-size: 1.2em;
-}
-.testimonial-container {
-  justify-content: space-evenly;
-  display: flex;
-}

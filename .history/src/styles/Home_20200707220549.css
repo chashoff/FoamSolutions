@@ -85,9 +85,7 @@
   width: 25%;
   padding: 2em;
 }
-.testimonial p {
-  font-size: 1.2em;
-}
+
 .testimonial-container {
   justify-content: space-evenly;
   display: flex;

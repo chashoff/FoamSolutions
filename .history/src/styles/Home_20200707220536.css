@@ -83,10 +83,7 @@
 .testimonial {
   background-color: white;
   width: 25%;
-  padding: 2em;
-}
-.testimonial p {
-  font-size: 1.2em;
+  padding: 1em;
 }
 .testimonial-container {
   justify-content: space-evenly;

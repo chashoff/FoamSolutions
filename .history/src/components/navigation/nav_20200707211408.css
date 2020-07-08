@@ -18,15 +18,15 @@
     margin-left: auto;
     width: 100%;
     background-color: rgba(46,46, 45, .7);
+    position: fixed;
     justify-content: space-evenly;
 }
 .fullscreen-nav-link {
+    margin: .5em 1.5em;
     color: lightblue;
     border-bottom: 2px solid transparent;
     transition: .3s ease-in-out all;
-    padding: 1em 1.5em;
-    width: 100%;
-    text-align: center;
+    padding: .5em 1.5em;
 }
 .fullscreen-nav-link:hover {
     border-bottom: 2px solid lightblue;

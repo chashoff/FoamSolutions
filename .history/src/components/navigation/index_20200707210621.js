@@ -19,12 +19,11 @@ class NavBar extends Component {
             return <NavDrawer isOpen={this.state.isNav} onHide={this.handleNavClose} />
         }
         return (
-                <div style={{ display: 'flex' }}>
+                <div style={{ display: 'flex'}}>
                     <FaBars className="hamburger-menu" style={{ fontSize: '1.5em', color: 'darkgrey', marginLeft: 'auto' }} onClick={this.handleNavClose} />
                     <nav className="fullscreen-nav">
                         <a href="#Home" className="fullscreen-nav-link">Home</a>
                         <a href="#About" className="fullscreen-nav-link">About</a>
-                        <a href="#Testimonials" className="fullscreen-nav-link">Testimonials</a>
                         <a href="#Location" className="fullscreen-nav-link">Location</a>
                         <a href="#Contact" className="fullscreen-nav-link">Contact</a>
                     </nav>

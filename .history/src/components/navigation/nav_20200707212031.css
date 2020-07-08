@@ -21,6 +21,7 @@
     justify-content: space-evenly;
 }
 .fullscreen-nav-link {
+
     color: lightblue;
     border-bottom: 2px solid transparent;
     transition: .3s ease-in-out all;

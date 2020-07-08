@@ -21,12 +21,12 @@
     justify-content: space-evenly;
 }
 .fullscreen-nav-link {
+    margin: .5em 1.5em;
     color: lightblue;
     border-bottom: 2px solid transparent;
     transition: .3s ease-in-out all;
-    padding: 1em 1.5em;
+    padding: .5em 1.5em;
     width: 100%;
-    text-align: center;
 }
 .fullscreen-nav-link:hover {
     border-bottom: 2px solid lightblue;

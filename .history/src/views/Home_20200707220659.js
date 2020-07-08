@@ -110,7 +110,7 @@ class Home extends Component {
                         </div>
                         <div id="testimonials" className="section">
                                 <h2 style={{textAlign: 'center'}}>Testimonials</h2>
-                                <h4 style={{textAlign: 'center', marginBottom: '2em', color: 'darkgrey'}}>The results speak for themselves</h4>
+                                <h4 style={{textAlign: 'center'}}>The results speak for themselves</h4>
                                 <div className="testimonial-container">
                                     <div className="testimonial">
                                         <p>"The Navistar Assembly Plant in Springfield, 
@@ -118,12 +118,11 @@ class Home extends Component {
                                         protection systems. The employees at Foam Solutions 
                                         are experts in their field and keep our Assembly 
                                         Plant, Paint Facility and Truck Specialty Center in...</p>
-                                        <div style={{display: 'flex'}}>
-                                            <img style={{ borderRadius: '50%', height: '75px', marginTop: '1em'}} src="/images/user-sean.png" alt=""/>
-                                            <div style={{ marginTop: '1.7em', marginLeft: '1em'}}>
-                                                <h4 style={{textTransform: 'uppercase'}}>Rusty</h4>
-                                                <h5>Bussiness Associate</h5>
-                                            </div>
+                                        <div>
+                                            <img src="" alt=""/>
+                                            <div>
+                                            <h4>Rusty</h4>
+                                            <h5>Bussiness Associate</h5>
                                         </div>
                                     </div>
                                     <div className="testimonial">
@@ -131,10 +130,10 @@ class Home extends Component {
                                         appointment to make sure we where compliant. They 
                                         went above and beyond in fixing all of the issues we 
                                         had, and made sure we knew how to stay compliant!"</p>
-                                        <div style={{display: 'flex'}}>
-                                            <img style={{ borderRadius: '50%', height: '75px', marginTop: '1em'}} src="/images/user-3.png" alt=""/>
-                                            <div style={{ marginTop: '1.7em', marginLeft: '1em'}}>
-                                                <h4 style={{textTransform: 'uppercase'}}>Steven Baldwin</h4>
+                                        <div>
+                                            <img src="" alt=""/>
+                                            <div>
+                                                <h4>Steven Baldwin</h4>
                                                 <h5>Bussiness Owner</h5>
                                             </div>
                                         </div>
@@ -144,12 +143,10 @@ class Home extends Component {
                                         foam proportioner system to hopefully cut down on the 
                                         cost of a regular foam test. We are happy to say it was 
                                         much cheaper, and they did an amazing job!"</p>
-                                        <div style={{display: 'flex'}}>
-                                            <img style={{ borderRadius: '50%', height: '75px', marginTop: '1em'}} src="/images/user-ricky.png" alt=""/>
-                                            <div style={{ marginTop: '1.7em', marginLeft: '1em'}}>
-                                                <h4 style={{textTransform: 'uppercase'}}>Kris Young</h4>
-                                                <h5>Bussiness Associate</h5>
-                                            </div>
+                                        <div>
+                                            <img src="" alt=""/>
+                                            <h4>Kris Young</h4>
+                                            <h5>Bussiness Associate</h5>
                                         </div>
                                     </div>
                                 </div>

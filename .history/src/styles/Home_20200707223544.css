@@ -88,6 +88,9 @@
 .testimonial p {
   font-size: 1.2em;
 }
+.testimonial div img {
+  
+}
 .testimonial-container {
   justify-content: space-evenly;
   display: flex;

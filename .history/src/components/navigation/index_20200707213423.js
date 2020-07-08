@@ -24,7 +24,7 @@ class NavBar extends Component {
                     <nav className="fullscreen-nav">
                         <a href="#Home" className="fullscreen-nav-link">Home</a>
                         <a href="#About" className="fullscreen-nav-link">About</a>
-                        <a href="#Testimonials" className="fullscreen-nav-link">Testimonials</a>
+                        <a href="#Testimonials" className="fullscreen-nav-link">#Testimonials</a>
                         <a href="#Location" className="fullscreen-nav-link">Location</a>
                         <a href="#Contact" className="fullscreen-nav-link">Contact</a>
                     </nav>
