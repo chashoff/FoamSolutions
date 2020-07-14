@@ -1,0 +1,24 @@
+.item-container-inner {
+    background-color: rgba(229, 229, 229, .72);
+    text-align: center;
+    width: 100;
+    margin: 1em;
+    padding: .5em;
+    transition: .2s ease-in-out all;
+    border: 3px solid lightgreen
+}
+
+.item-container-inner:hover {
+    transform: scale(1.1);
+    background-color: white;
+}
+
+.item-desc-seperator {
+    height: 4px;
+    width: 40px;
+    background-color: #45A5E4;
+    margin: 10px auto 0 auto;
+}
+.item-icon {
+    height: 50px;
+}

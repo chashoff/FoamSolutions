@@ -1,0 +1,33 @@
+
+body, html {
+    width: 100% !important;
+    background-color: #f5f5f5;
+    overflow-y: hidden;
+    background-image: url('/images/main-background.svg');
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+@media only screen and (max-width: 650px) {
+    #fp-nav {
+        display: none !important;
+    }
+}
+.fp-controlArrow.fp-next {
+    left: 0;
+    border: none !important;
+    width: 50px;
+    height: 101px;
+    background: url('/images/next-arrow.svg') no-repeat;
+    cursor: pointer;
+    transition: .2s ease-in-out all;
+}
+.fp-controlArrow.fp-next:hover {
+    tra
+}
+.fp-controlArrow {
+    margin-right: 2em;
+    margin-left: 2em;
+}
