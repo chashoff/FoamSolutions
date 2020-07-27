@@ -1,0 +1,198 @@
+#fp-nav ul li a span {
+    background-color: white !important;
+}
+.section-container {
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+    overflow-y: hidden !important;
+}
+.section-one-header-slide-one, .working-date, .exp-text-slide-one {
+    text-align: center;
+}
+.span-spacing {
+    height: 1px;
+    width: 45px;
+    background-color: #4c95f5;
+    margin: 1rem auto;
+}
+#about h2 {
+  text-align: center;
+}
+.exp-text-slide-one {
+    margin: 0;
+    padding: 0;
+}
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+@media only screen and (max-width: 800px) {
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+.ocean { 
+    height: 90%;
+    width:150%;
+    position:absolute;
+    bottom: -475px;
+    left: 300px;
+    background: #015871;
+    transform: rotate(-30deg);
+    
+  }
+  
+  .wave {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+    position: absolute;
+    top: -196px;
+    width: 6400px;
+    height: 350px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  
+  }
+  
+  .wave:nth-of-type(2) {
+    top: -173px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: 1;
+  }
+  
+  @keyframes wave {
+    0% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: -1600px;
+    }
+  }
+  
+  @keyframes swell {
+    0%, 100% {
+      transform: translate3d(0,-25px,0);
+    }
+    50% {
+      transform: translate3d(0,5px,0);
+    }
+  }
+.testimonial {
+  background-color: white;
+  width: 25%;
+  padding: 2em;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+}
+.testimonial p {
+  font-size: 1.2em;
+}
+.testimonial-container {
+  justify-content: space-evenly;
+  display: flex;
+}
+@media only screen and (max-width: 1400px) {
+  .testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .testimonial {
+    width: 80%;
+    margin: 1em 0;
+  }
+  .testimonial-image-background {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .carousel {
+    width: 95% !important;
+  }
+}
+.locationContainer {
+  display: flex;
+}
+.secondContainer {
+;;
+}
+@media only screen and (max-width: 1200px) {
+  .locationContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .locationService {
+    justify-content: center;
+    width: 100%;
+  }
+}
+.carousel {
+  height: 400px;
+  margin: 3em auto;
+}
+.testimonial-image-background {
+  display: flex;
+  align-items: center;
+  padding: .5em;
+  margin-top: 1em;
+  border-radius: 47px;
+}
+.locationService {
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.prev-arrow {
+  padding: .5em;
+  background-image: url('/images/prev-arrow.svg');
+  background-size: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: transparent;
+  transition: .2s ease-in-out all;
+  height: 100%;
+}
+.prev-arrow:hover {
+  background-color: lightblue;
+}
+.next-arrow {
+  padding: .5em;
+  background-image: url('/images/next-arrow.svg');
+  background-size: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: transparent;
+  transition: .2s ease-in-out all;
+  height: 100%;
+}
+.next-arrow:hover {
+  background-color: lightblue;
+}
+.created-by {
+  position: relative;
+  margin-top: auto;
+  text-align: center;
+  z-index: 1000;
+  background-color: rgba(58,59,58,0.5);
+  width: 10%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  padding: .5em;
+  border-radius: 50px;
+  color: lightgrey
+}
+.aws-btn {
+  --slider-height-percentage: 48%;
+  --slider-transition-duration: 700ms;
+  --organic-arrow-thickness: 3px;
+  --organic-arrow-border-radius: 30px;
+  --organic-arrow-height: 25px;
+  --organic-arrow-color: #538bd5 !important;
+  --control-button-width: 5%;
+  --control-button-height: 25%;
+  --control-button-background: transparent;
+  --control-bullet-color: #669de5;
+  --control-bullet-active-color: #538bd5;
+  --loader-bar-color: #a09898;
+  --loader-bar-height: 6px;
+  }
