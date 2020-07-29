@@ -2,7 +2,7 @@
     "benefits": [
         {
             "title": "Cost Efficient",
-            "description": "Our process saves you significant money on your foam concentrate.",
+            "description": "Our process saves you significant money on your foam concentrate, and your disposal fees.",
             "icon": "/images/dollar.svg"
         },
         {
@@ -26,7 +26,7 @@
             "icon": "/images/clock.svg"
         },
         {
-            "title": "Requirement Driven",
+            "title": "NFPA Approved",
             "description": "We meet all the requirements from the manufacturer for flushing the systems with water.",
             "icon": "/images/checklist.svg"
         },

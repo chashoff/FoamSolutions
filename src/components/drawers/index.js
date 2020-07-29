@@ -28,6 +28,11 @@ const NavDrawer = ({ isOpen, onHide }) => (
                     </div>
                     <Divider />
                     <div className="icon-container">
+                        <FaBookmark className="icon" />
+                        <a onClick={onHide} href="#Benefits" className="side-nav-link">Benefits</a>
+                    </div>
+                    <Divider />
+                    <div className="icon-container">
                         <FaClipboardList className="icon" />
                         <a className="side-nav-link" href="#Location">Location</a>
                     </div>

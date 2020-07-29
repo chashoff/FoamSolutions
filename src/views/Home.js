@@ -13,7 +13,7 @@ import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import $ from "jquery";
 
-const anchors = ["Home", "About", "Testimonials", "Location", "Contact", "NFPA"];
+const anchors = ["Home", "About","Benefits", "Testimonials", "Location", "Contact", "NFPA"];
 class Home extends Component {
     
     state = {
@@ -76,8 +76,40 @@ class Home extends Component {
                             )}
                         </WaterWave>
                         </div>
+                        <div className="blur-container section">
+                            <h2 style={{ marginTop: '1em', marginBottom: '1em'}} className="section-one-header-slide-one">About Our Company</h2>
+                            <div>
+                                <div style={{display: 'flex', flexDirection: 'column', width: '100%' , margin: '0 auto', paddingBottom: '1em', marginTop: '1em'}}>
+                                    <h5 style={{ textAlign: 'center', marginTop: '.5em'}}>Our Process</h5>
+                                    <p className="span-spacing" style={{width: '100px'}}></p>
+                                    <ReactPlayer style={{ margin: '0 auto', width: '400'}} loop="true" playing="false" url='https://www.youtube.com/watch?time_continue=1&v=j6n8v_guPy0&feature=emb_logo' />
+                                </div>
+                                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '1em', marginTop: '.5em', justifyContent: 'space-between', flexWrap: 'wrap'}}>
+                                    <div className="about-info-container">
+                                        <h5 className="working-date">Working Since 2006</h5>
+                                        <p className="span-spacing"></p>
+                                        <p className="exp-text-slide-one">Our company offers the most cost effective, environmentally friendly solution to your annual foam proportioner testing. Proudly servering our great clientelle since 2006</p>
+                                    </div>
+                                    <div className="about-info-container">
+                                        <h2 style={{ textAlign: 'center'}}>What We Do</h2>
+                                        <p className="span-spacing" style={{width: '100px'}}></p>
+                                        <div>
+                                            <p style={{ textAlign: 'center'}}>The method relies on an initial foam system discharge test to establish that the system is working properly 
+                                            and to determine the concentration the proportioner is developing. This test is conducted in the same fashion as 
+                                            any other foam proportioning system acceptance test. This test is immediately followed by a water equivalency test 
+                                            at the exact same conditions as the initial foam discharge test.</p>
+                                            <p style={{ textAlign: 'center'}}>A water equivalency test essentially replaces the foam concentrate supply to the proportioner with water. The 
+                                            flowrate of the system and the flowrate of the water used in place of the concentrate are both measured with 
+                                            precision flow meters, and a baseline proportioning rate is established.</p>
+                                            <p style={{ textAlign: 'center'}}>The proportioning system can then be tested in the future by repeating a water equivalency test and comparing 
+                                            the results to the initial water equivalency test. Flow of foam concentrate is not necessary.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div className="section gradient-one">
-                            <div id="about" className="slide section-container">
+                            <div id="about" style={{ margin: '1rem'}}>
                                 <h2 style={{fontWeight: '400', fontSize: '2.3em'}}>Benefits Using<br />Our Process</h2>
                                 <div>
                                     <div className="about-grid">
@@ -91,36 +123,13 @@ class Home extends Component {
                                         <Item title={benefits[5].title} description={benefits[5].description} icon={benefits[5].icon} />
                                     </div>
                                 </div>
-                            </div>
-                            <div className="slide blur-container section-container">
-                                <h2 className="section-one-header-slide-one">About Our Company</h2>
-                                <div>
-                                    <div className="about-info-container" style={{display: 'flex', flexDirection: 'column', width: '60%', backgroundColor: 'rgba(229, 229, 229, .72)' , margin: '0 auto', paddingBottom: '1em', marginTop: '1em'}}>
-                                        <h5 style={{ textAlign: 'center', marginTop: '.5em'}}>Our Process</h5>
-                                        <p className="span-spacing" style={{width: '100px'}}></p>
-                                        <ReactPlayer style={{ margin: '0 auto'}} loop="true" playing="false" url='https://www.youtube.com/watch?time_continue=1&v=j6n8v_guPy0&feature=emb_logo' />
+                                <div className="certified">
+                                    <div className="approved-container" style={{ display: 'flex', justifyContent: 'center'}}>    
+                                        <img className="approved-logo" src="/images/fm_approved.png" alt=""/>
                                     </div>
-                                    <div style={{display: 'flex', padding: '1em', marginTop: '.5em', justifyContent: 'space-between', flexWrap: 'wrap'}}>
-                                        <div className="about-info-container" style={{width: '45%', margin: 'auto 0', backgroundColor: 'rgba(229, 229, 229, .72)', height: '100%',  padding: '2em'}}>
-                                            <h5 className="working-date">Working Since 2006</h5>
-                                            <p className="span-spacing"></p>
-                                            <p className="exp-text-slide-one">Our company offers the most cost effective, environmentally friendly solution to your annual foam proportioner testing. Proudly servering our great clientelle since 2006</p>
-                                        </div>
-                                        <div className="about-info-container" style={{width: '45%', backgroundColor: 'rgba(229, 229, 229, .72)', padding: '2em'}}>
-                                            <h2 style={{ textAlign: 'center'}}>What We Do</h2>
-                                            <p className="span-spacing" style={{width: '100px'}}></p>
-                                            <div>
-                                                <p style={{ textAlign: 'center'}}>The method relies on an initial foam system discharge test to establish that the system is working properly 
-                                                and to determine the concentration the proportioner is developing. This test is conducted in the same fashion as 
-                                                any other foam proportioning system acceptance test. This test is immediately followed by a water equivalency test 
-                                                at the exact same conditions as the initial foam discharge test.</p>
-                                                <p style={{ textAlign: 'center'}}>A water equivalency test essentially replaces the foam concentrate supply to the proportioner with water. The 
-                                                flowrate of the system and the flowrate of the water used in place of the concentrate are both measured with 
-                                                precision flow meters, and a pseudo proportioning rate is established.</p>
-                                                <p style={{ textAlign: 'center'}}>The proportioning system can then be tested in the future by repeating a water equivalency test and comparing 
-                                                the results to the initial water equivalency test. Flow of foam concentrate is not necessary.</p>
-                                            </div>
-                                        </div>
+                                    <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}} className="approved-container">
+                                        <img className="approved-logo" src="/images/NFPA_logo.png" alt=""/>
+                                        <p style={{textAlign: 'center', fontWeight: '700'}}>APPROVED</p>
                                     </div>
                                 </div>
                             </div>
@@ -173,9 +182,9 @@ class Home extends Component {
                                 </div>
                             </div>
                             <AwesomeSlider className="carousel" style={{width: '70%'}}>
-                                <div data-src="/images/DSCF3037.jpg" />
-                                <div data-src="/images/DSCF3063.jpg" />
-                                <div data-src="/images/Group10.png" />
+                                <div data-src="/images/c-image-one.jpg" />
+                                <div data-src="/images/c-image-two.jpg" />
+                                <div data-src="/images/c-image-three.png" />
                             </AwesomeSlider>
                         </div>
                         <div id="location" className="section">
