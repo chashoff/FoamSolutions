@@ -127,12 +127,12 @@ class Home extends Component {
                                     <div className="approved-container" style={{ display: 'flex', justifyContent: 'center'}}>    
                                         <img className="approved-logo" src="/images/fm_approved.png" alt=""/>
                                     </div>
-                                    <div className="approved-container" style={{ display: 'flex', justifyContent: 'center'}}>    
-                                        <img className="approved-logo" src="/images/fmCertificate.png" alt=""/>
-                                    </div>
                                     <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}} className="approved-container">
                                         <img className="approved-logo" src="/images/NFPA_logo.png" alt=""/>
                                         <p style={{textAlign: 'center', fontWeight: '700'}}>APPROVED</p>
+                                    </div>
+                                    <div className="approved-container" style={{ display: 'flex', justifyContent: 'center'}}>    
+                                        <img className="approved-logo" src="/images/fm_certificate.png" alt=""/>
                                     </div>
                                 </div>
                             </div>
