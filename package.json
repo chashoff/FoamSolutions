@@ -36,7 +36,7 @@
     "react-text-rotator": "^0.1.1",
     "react-water-wave": "^1.0.5",
     "simplex-noise": "^2.4.0",
-    "three": "^0.115.0"
+    "three": "^0.125.0"
   },
   "scripts": {
     "start": "react-scripts start",
